@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "migration:run": "npx knex migrate:latest",
+    "seeds:run": "knex seed:run",
+    "migrate:rollback": "npx knex migrate:rollback",
+    "test": "jest --watchAll  --forceExit",
     "dev": "export NODE_ENV=develop && nodemon --watch 'src/' --exec ts-node src/index.ts  -e ts"
   },
   "keywords": [],

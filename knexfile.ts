@@ -8,7 +8,24 @@ const knexfile: { [key: string]: Knex.Config } = {
       host: "localhost",
       user: "postgres",
       password: "password",
-      database: "testjest",
+      database: "aula",
+      charset: "utf8",
+    },
+    migrations: {
+      directory: __dirname + "/src/database/migrations",
+    },
+    seeds: {
+      directory: __dirname + "/src/database/seeds",
+    },
+  },
+
+  testJest: {
+    client: "pg",
+    connection: {
+      host: "localhost",
+      user: "postgres",
+      password: "password",
+      database: "aula",
       charset: "utf8",
     },
     migrations: {
