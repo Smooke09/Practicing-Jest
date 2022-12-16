@@ -1,7 +1,7 @@
 import knexfile from "../../knexfile";
 import { testServer } from "./jest.setup";
 
-describe("View", () => {
+describe("test Model user", () => {
   beforeAll(async () => {
     const knex = require("knex")(knexfile.testJest);
 

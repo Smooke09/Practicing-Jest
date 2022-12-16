@@ -1,7 +1,14 @@
-## Praticando Jest
+# Praticando Jest
 
-# Dicas e Anotacoes
+- Estou praticando um pouco mas de TDD e test end2end 
 
--- O certo sempre que for testar sua aplicacao e ideal ter um banco de dados
+- Nessa aplicacao estamos utilizando o Jest e o supertest para testar as rotas da aplicao 
 
--- Nessa aplicacao as migrations e o seeds para criar e popular o banco
+
+
+
+
+## Para iniciar os teste Utilizamos o comando
+
+`yarn test`
+
